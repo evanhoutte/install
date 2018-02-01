@@ -32,10 +32,10 @@ sudo [ -f /root/.config/htop/htoprc ] && sudo rm /root/.config/htop/htoprc
 sudo [ ! -h /root/.config/htop/htoprc ] && sudo ln -s $PWD/htoprc /root/.config/htop/htoprc
 
 #VIM
-[ -f ~/.vimrc ] && rm ~/.vimrc
-[ ! -h ~/.vimrc ] && ln -s $PWD/vimrc ~/.vimrc
-sudo [ -f /root/.vimrc ] && sudo rm /root/.vimrc
-sudo [ ! -h /root/.vimrc ] && sudo ln -s $PWD/vimrc /root/.vimrc
+#[ -f ~/.vimrc ] && rm ~/.vimrc
+#[ ! -h ~/.vimrc ] && ln -s $PWD/vimrc ~/.vimrc
+#sudo [ -f /root/.vimrc ] && sudo rm /root/.vimrc
+#sudo [ ! -h /root/.vimrc ] && sudo ln -s $PWD/vimrc /root/.vimrc
 
 #BASH
 [ ! -h ~/.aliases.sh ] && ln -s $PWD/aliases.sh ~/.aliases.sh
